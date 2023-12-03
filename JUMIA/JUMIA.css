@@ -1,0 +1,42 @@
+.a1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+}
+
+.centred-words{
+    text-align: center;
+     flex-grow: 1; /* The flex-grow property specifies how much the item will grow relative to the rest of the flexible items inside the same container.  */
+}
+.selcolor{
+    color: orange;
+    font-size: 20px;
+}
+.colors{
+    color: black;
+}
+.navbar a{
+  text-decoration: none;
+  padding-right: 80px;
+}
+.search{
+    width: 40%;
+    height: 5vh;
+    border-radius: 0.5rem;
+}
+.button{
+    height: 5vh;
+    border-radius: 0.5rem  
+
+}
+.button:hover{
+    background-color: darkorange;
+    color: white;
+    font-weight: 600;
+}
+.borderss{
+    border-style: ridge;
+}
